@@ -2,8 +2,8 @@
     <center><h3>Information about animal1</h3></center>
     Name of animal: <input type="text" name="nameAnimal"><br>
     <br>Animal species: <input type="radio" name="anSpecies" value="1">Dog1
-    <input type="radio" name="anSpecies" value="2">Cat8888
-    <input type="radio" name="anSpecies" value="3">Mouse111111
+    <input type="radio" name="anSpecies" value="2">Cat5
+    <input type="radio" name="anSpecies" value="3">Mouse5
     <input type="radio" name="anSpecies" value="4">Rabbit3333
     <input type="radio" name="anSpecies" value="5">Raccoogn1111<br>
     <br>YearsOld: <input type="text" name="YearsOld"><br>
