@@ -1,5 +1,5 @@
 <form action="" method="post">
-    <center><h3>Information about animal</h3></center>
+    <center><h3>Information about animal1</h3></center>
     Name of animal: <input type="text" name="nameAnimal"><br>
     <br>Animal species: <input type="radio" name="anSpecies" value="1">Dog
     <input type="radio" name="anSpecies" value="2">Cat
