@@ -12,6 +12,7 @@ echo 'You enter ' . $nameOfproduct . '. The cost of this product: ' . $price;
 $db = new PDO('mysql:dbname=basa1;host=127.0.0.1','root','root');
 $stmt = $db->prepare('INSERT INTO menu (nameOfproduct, price) VALUE (:nameOfproduct, :price)');
 $stmt->bindParam(':nameOfproduct',$nameOfproduct);
-$stmt->bindParam(':price',$price);
+$stmt->bindParam(':price1',$price);
+$stmt->bindParam(':price2',$price);
 $stmt->execute();
 ?>
