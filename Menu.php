@@ -1,6 +1,6 @@
 <form action="" method="post">
     <center><h3>Enter name and price of prodact</h3></center>
-    <br>Product: <input type="text" name="nameOfproduct"><br>
+    <br>Product: <input type="text" name="nameOfproduct1111111"><br>
     <br>Price: <input type="text" name="price"><br>
     <br><input type="submit"><br>
 </form>
