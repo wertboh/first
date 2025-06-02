@@ -5,7 +5,7 @@
 
 
 <?php
-$numbs = $_POST['numbs'];
+$numbs = $_POST['numbs1'];
 echo '1' . 'дільниками цього числа ' . '<br>';
 for ($i = 1; $i <= $numbs; $i++) {
     if ($numbs % $i == 0) echo  $i . '<br>';
