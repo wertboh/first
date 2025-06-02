@@ -3,7 +3,7 @@
         <center>Anketa</center>
     </h2>
     <input type=file name=uploadfile>
-    <input type=submit value=Загрузить>
+    <input type=submit value=Загрузить1>
     <file_uploads
     =On></file_uploads>
     <upload_tmp_dir

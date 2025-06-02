@@ -4,7 +4,7 @@
 </form>
 <?php
 $info = $_POST['info'];
-echo '<h3>' . 'You enter name into form: ' . $info . '</h3>';
+echo '<h3>' . 'You enter name into form3: ' . $info . '</h3>';
 echo '-------------------------------------------------------------------------' . '<br>';
 $db = new PDO('mysql:dbname=basa1;host=127.0.0.1', 'root', 'root');
 $stmt = $db->prepare("SELECT * FROM table1 WHERE fio = :fio");
