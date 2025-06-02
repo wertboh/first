@@ -14,6 +14,7 @@ $stmt = $db->prepare('INSERT INTO menu (nameOfproduct, price) VALUE (:nameOfprod
 $stmt->bindParam(':nameOfproduct',$nameOfproduct);
 $stmt->bindParam(':price1',$price);
 $stmt->bindParam(':price2',$price);
+$stmt->bindParam(':price4',$price);
 $stmt->bindParam(':price3',$price);
 $stmt->execute();
 ?>
